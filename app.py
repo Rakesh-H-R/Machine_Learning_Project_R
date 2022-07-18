@@ -18,4 +18,4 @@ def index():
 
 if __name__ == "__main__":
     logging.info("Starting the service")
-    app.run()
+    app.run(debug=True)
